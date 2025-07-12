@@ -58,7 +58,7 @@ export default function Main(){
             <button className="add-button">+Add ingeredient</button>
             
         </form>
-        <button className="refresh-button" onClick={refreshlist}><img src="image-folder\refresh-icon-new.png"></img></button>
+        <button className="refresh-button" onClick={refreshlist}><img src="image-folder\refresh-icon-new.png" alt="Refresh"></img></button>
         </div>
 
 
