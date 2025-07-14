@@ -6,7 +6,7 @@ export default function Main(){
     const [ingredients,setingredients]=React.useState([])
     const[loading,setloading]=React.useState("Get a Recipe")
     
-    const[familyfriendly,setFamilyfriendly]=React.useState(false)
+    const[familyfriendly,setFamilyfriendly]=React.useState(true)
     const refresponse=React.useRef(null)
      React.useEffect(() => {
         if (recipe && refresponse.current) {
